@@ -1,0 +1,187 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - PC_Laptop 
+  - Printing_scanning
+  - Software 
+  - Employee_Self_Service 
+  - iPerform
+  - Kronos 
+  - Remote_access 
+  - Connection 
+  - Wifi 
+  - Policy_Management
+  - SEHA_Website 
+  - Intranet
+  - SMS
+  - accessories_request
+  - soft_request
+  - hw_request
+  - access_request
+
+entities:
+  - device
+  - sub_cat
+  - problem
+  - request
+
+slots:
+  device:
+    type: text
+    initial_value: ""
+  sub_cat:
+      type: text
+      initial_value: ""
+  problem:
+      type: text
+      initial_value: ""
+  request:
+      type: text
+      initial_value: ""
+
+actions:
+- utter_greet
+- utter_how_can_ihelp
+- utter_cheer_up
+- utter_did_that_help
+- utter_PC_Laptop
+- utter_Printing_scanning
+- utter_Software
+- utter_Employee_Self_Service
+- utter_iPerform
+- utter_Kronos
+- utter_Remote_access
+- utter_Connection
+- utter_Wifi
+- utter_Policy_Management
+- utter_SEHA_Website
+- utter_Intranet
+- utter_SMS
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_accessories_request
+- utter_soft_request
+- utter_hw_request
+- utter_access_request
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_how_can_ihelp:
+    - text: "I am an IT support bot \n I can assist you with technical issue, incidents and opening requests \n how can i help today \n describe your issue or request?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_more_info:
+      - text: "please provide additional info on the problem {sub_cat} {problem} {request} :"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_PC_Laptop:
+    - text: "identified {problem} / {sub_cat} on {device}  \n
+     Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+     and then report an incident by selecting the category of your issue"
+
+  utter_Printing_scanning:
+      - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_Software:
+      - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_Employee_Self_Service:
+    - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_iPerform:
+    - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_Kronos:
+    - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_Remote_access:
+    - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_Connection:
+    - text: "identified {problem} / {sub_cat}   \n
+      Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+      and then report an incident by selecting the category of your issue "
+
+  utter_Wifi:
+    - text: "identified {problem} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then report an incident by selecting the category of your issue "
+
+  utter_Policy_Management:
+    - text: "identified {problem} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then report an incident by selecting the category of your issue "
+
+  utter_SEHA_Website:
+    - text: "identified {problem} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then report an incident by selecting the category of your issue "
+
+  utter_Intranet:
+    - text: "identified {problem} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then report an incident by selecting the category of your issue "
+
+  utter_SMS:
+    - text: "identified {problem} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then report an incident by selecting the category of your issue "
+
+
+  utter_accessories_request:
+    - text: "identified {request} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then  chose  Request Accessories"
+
+  utter_soft_request:
+    - text: "identified {request} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then  chose Request for Software "
+
+  utter_hw_request:
+    - text: "identified {request} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then  chose Request for Hardware  "
+  
+  utter_access_request:
+    - text: "identified {request} / {sub_cat}   \n
+    Please login to Talabi System https://talabi.seha.ae/ux/myitapp/#/catalog/home \n
+    and then  chose Add/Remove Access to Network Shared Folder "
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
