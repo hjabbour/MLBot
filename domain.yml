@@ -29,6 +29,7 @@ entities:
   - sub_cat
   - problem
   - request
+  - mood
 
 slots:
   device:
@@ -43,6 +44,9 @@ slots:
   request:
       type: text
       initial_value: ""
+  mood:
+        type: text
+        initial_value: ""
 
 actions:
 - utter_greet
@@ -180,7 +184,7 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot"
+  - text: "I am a bot hjabbour"
 
 session_config:
   session_expiration_time: 60

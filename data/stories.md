@@ -341,6 +341,9 @@
   - utter_did_that_help
   * affirm
   - utter_iamabot
+  - slot{"problem" : ""}
+  - slot{"sub_cat" : ""}
+  - slot{"request" : ""}
   - utter_goodbye
 
 

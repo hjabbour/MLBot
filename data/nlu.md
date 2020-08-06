@@ -143,24 +143,26 @@
 - [Adobe Writer](sub_cat) [request](request) [need](request) [software](sub_cat)
 - [Power BI](sub_cat) [request](request) [need](request) [software](sub_cat)
 - [other software](sub_cat) [request](request) [need](request) [software](sub_cat)
+- [install](request) [software](sub_cat) [request](request) [need](request) [software](sub_cat)
+
 
 ## intent:hw_request
-- [Computer](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [Laptop](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [LCD Monitor](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [Monitor](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [oiPad](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [WOW](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [hardware](sub_cat) [request](request) [need](request) [software](sub_cat)
+- [Computer](sub_cat) [request](request) [need](request)
+- [Laptop](sub_cat) [request](request) [need](request) 
+- [LCD Monitor](sub_cat) [request](request) [need](request) 
+- [Monitor](sub_cat) [request](request) [need](request) 
+- [oiPad](sub_cat) [request](request) [need](request) 
+- [WOW](sub_cat) [request](request) [need](request)
+- [hardware](sub_cat) [request](request) [need](request)
 
 ## intent:accessories_request
-- [mouse](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [keyboard](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [pad](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [mouse pad](sub_cat) [request](request) [need](request) [software](sub_cat)
+- [mouse](sub_cat) [request](request) [need](request) 
+- [keyboard](sub_cat) [request](request) [need](request) 
+- [pad](sub_cat) [request](request) [need](request) )
+- [mouse pad](sub_cat) [request](request) [need](request)
 
 ## intent:access_request
-- [folder](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [share](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [shared folder](sub_cat) [request](request) [need](request) [software](sub_cat)
-- [mouse pad](sub_cat) [request](request) [need](request) [software](sub_cat)
+- [folder](sub_cat) [request](request) [need](request) 
+- [share](sub_cat) [request](request) [need](request) 
+- [shared folder](sub_cat) [request](request) [need](request)
+- [mouse pad](sub_cat) [request](request) [need](request)
