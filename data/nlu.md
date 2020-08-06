@@ -56,9 +56,15 @@
 - am I talking to a human?
 
 ## intent:PC_Laptop 
-- [Desktop](device)
-- [Laptop](device)
-- [Projector](device)
+- [Desktop](device)[issue](problem)
+- [Desktop](device)[incident](problem)
+- [Desktop](device)[problem](problem)
+- [Laptop](device)[issue](problem)
+- [Laptop](device)[[incident](problem)
+- [Laptop](device)[problem](problem)
+- [Projector](device)[issue](problem)
+- [Projector](device)[[incident](problem)
+- [Projector](device)[problem](problem)
 - [PC](device)
 
 ## intent:Printing_scanning 

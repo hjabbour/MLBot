@@ -6,23 +6,127 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - PC_Laptop 
-  - Printing_scanning
-  - Software 
-  - Employee_Self_Service 
-  - iPerform
-  - Kronos 
-  - Remote_access 
-  - Connection 
-  - Wifi 
-  - Policy_Management
-  - SEHA_Website 
-  - Intranet
-  - SMS
-  - accessories_request
-  - soft_request
-  - hw_request
-  - access_request
+  - PC_Laptop:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Printing_scanning:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+
+  - Software:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+
+  - Employee_Self_Service:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - iPerform:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Kronos:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Remote_access:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Connection:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Wifi:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Policy_Management:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - SEHA_Website:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - Intranet:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - SMS:
+      use_entities:
+        - sub_cat
+        - problem
+      ignore_entities:
+        - request
+        - mood
+  - accessories_request:
+      use_entities:
+        - sub_cat
+        - request
+      ignore_entities:
+        - problem
+        - mood
+  - soft_request:
+      use_entities:
+        - sub_cat
+        - request
+      ignore_entities:
+        - problem
+        - mood
+  - hw_request:
+      use_entities:
+        - sub_cat
+        - request
+      ignore_entities:
+        - problem
+        - mood
+  - access_request:
+      use_entities:
+        - sub_cat
+        - request
+      ignore_entities:
+        - problem
+        - mood
 
 entities:
   - device
